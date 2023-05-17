@@ -19,7 +19,7 @@ class WeChatDraft_Plugin implements Typecho_Plugin_Interface
      */
     /* 激活插件方法 */
     public static function activate(){
-        Typecho_Plugin::factory('Widget_Contents_Post_Edit')->afterPublish = array('WeChatDraft_Plugin', 'render');
+        Typecho_Plugin::factory('Widget_Contents_Post_Edit')->finishPublish = array('WeChatDraft_Plugin', 'render');
         Helper::addRoute('reset_mediaid', '/reset_mediaid', 'WeChatDraft_Action', 'resetMediaId');
     }
 
