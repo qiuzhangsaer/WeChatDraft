@@ -37,5 +37,6 @@ WeChatDraft 是一个用于 Typecho 博客系统的插件，它可以在发布�
 如果在安装、配置或使用 WeChatDraft 插件过程中遇到任何问题，请查阅以下资源获取帮助：
 
 - Typecho 官方论坛：[https://forum.typecho.org/](https://forum.typecho.org/)
+- 蓄客博客插件说明：[https://www.xvkes.cn/archives/290/](https://www.xvkes.cn/archives/290/)
 - 项目仓库：[https://github.com/qiuzhangsaer/WeChatDraft](https://github.com/qiuzhangsaer/WeChatDraft)
 - 提交 Issue：[https://github.com/qiuzhangsaer/WeChatDraft/issues](https://github.com/qiuzhangsaer/WeChatDraft/issues)
