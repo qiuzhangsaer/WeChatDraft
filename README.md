@@ -32,7 +32,15 @@ WeChatDraft 是一个用于 Typecho 博客系统的插件，它可以在发布�
 
 注意：确保你已经正确配置了微信公众号的相关信息。
 
-## 帮助与支持
+## 支持
+
+如果本插件帮到了你，不妨给点赞赏鼓励一下作者
+
+![支付宝](https://raw.githubusercontent.com/qiuzhangsaer/imageWarehouse/main/alipay.jpg)
+![微信](https://raw.githubusercontent.com/qiuzhangsaer/imageWarehouse/main/wechat.jpg)
+
+
+## 帮助
 
 如果在安装、配置或使用 WeChatDraft 插件过程中遇到任何问题，请查阅以下资源获取帮助：
 
