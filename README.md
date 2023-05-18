@@ -36,8 +36,8 @@ WeChatDraft 是一个用于 Typecho 博客系统的插件，它可以在发布�
 
 如果本插件帮到了你，不妨给点赞赏鼓励一下作者
 
-![支付宝](https://raw.githubusercontent.com/qiuzhangsaer/imageWarehouse/main/alipay.jpg)
-![微信](https://raw.githubusercontent.com/qiuzhangsaer/imageWarehouse/main/wechat.jpg)
+<img width="200" height="200" src="https://raw.githubusercontent.com/qiuzhangsaer/imageWarehouse/main/alipay.jpg">
+<img width="200" height="200" src="https://raw.githubusercontent.com/qiuzhangsaer/imageWarehouse/main/wechat.jpg">
 
 
 ## 帮助
