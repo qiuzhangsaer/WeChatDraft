@@ -102,6 +102,7 @@ class WeChatDraft_Plugin implements Typecho_Plugin_Interface
         if (empty($mediaId)) {
             $accessToken = self::getAccessToken();
             $url = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token='.$accessToken;
+            // 获取图片素材列表中的图片作为图文消息的封面
             $array = [
                 "type"=>"image",
                 "offset"=>0,
@@ -150,6 +151,8 @@ class WeChatDraft_Plugin implements Typecho_Plugin_Interface
 
             // 替换 HTML 中的图片标签中的 src 属性为上传后的图片 URL
             $html = str_replace($src, $wxImageUrl, $html);
+            // 修复bug，替换HTML中的#为\#
+            $html = str_replace('#', '\#', $html);
         }
 
         return $html;
