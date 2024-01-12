@@ -5,7 +5,7 @@
  *
  * @package WeChatDraft
  * @author 心灵导师安德烈
- * @version 1.0.0
+ * @version 1.0.1
  * @link https://www.xvkes.cn
  */
 class WeChatDraft_Plugin implements Typecho_Plugin_Interface
