@@ -19,8 +19,12 @@ class WeChatDraft_Action extends Typecho_Widget implements Widget_Interface_Do
             die('未登录用户!');
         }
         $file = dirname(__FILE__) . '/cache/mediaId';
-        unlink($file);
-        print('缓存清除成功!');
+        if (is_file($file)) {
+            unlink($file);
+            print('缓存清除成功!');
+        } else {
+            print('无缓存!');
+        }
     }
 
     public function action()
