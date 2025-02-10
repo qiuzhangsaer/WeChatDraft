@@ -5,7 +5,7 @@
  *
  * @package WeChatDraft
  * @author 心灵导师安德烈
- * @version 1.0.1
+ * @version 1.0.2
  * @link https://www.xvkes.cn
  */
 class WeChatDraft_Plugin implements Typecho_Plugin_Interface
@@ -98,7 +98,7 @@ class WeChatDraft_Plugin implements Typecho_Plugin_Interface
     /* 获取mediaid的方法 */
     public static function getMediaId(){
         $file = dirname(__FILE__) . '/cache/mediaId';
-        $mediaId = file_exists($file) ? unserialize(file_get_contents($file)) : '';
+        $mediaId = file_exists($file) ? file_get_contents($file) : '';
         if (empty($mediaId)) {
             $accessToken = self::getAccessToken();
             $url = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token='.$accessToken;
